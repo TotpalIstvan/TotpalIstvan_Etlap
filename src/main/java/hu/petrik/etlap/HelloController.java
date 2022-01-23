@@ -1,4 +1,4 @@
-package com.example.etlap;
+package hu.petrik.etlap;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

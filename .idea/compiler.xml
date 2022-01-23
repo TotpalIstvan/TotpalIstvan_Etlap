@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Etlap" target="11" />
+      <module name="Etlap" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

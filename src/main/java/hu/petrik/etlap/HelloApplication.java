@@ -1,4 +1,4 @@
-package com.example.etlap;
+package hu.petrik.etlap;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
