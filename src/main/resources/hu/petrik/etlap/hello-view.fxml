@@ -3,24 +3,24 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane prefHeight="376.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane prefHeight="663.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
    <columnConstraints>
-      <ColumnConstraints hgrow="SOMETIMES" maxWidth="378.0" minWidth="10.0" prefWidth="354.0" />
-      <ColumnConstraints hgrow="SOMETIMES" maxWidth="360.0" minWidth="0.0" prefWidth="113.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="738.0" minWidth="10.0" prefWidth="468.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="360.0" minWidth="0.0" prefWidth="331.0" />
       <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="0.0" prefWidth="0.0" />
    </columnConstraints>
    <rowConstraints>
-      <RowConstraints maxHeight="84.0" minHeight="10.0" prefHeight="66.0" vgrow="SOMETIMES" />
-      <RowConstraints maxHeight="123.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
-      <RowConstraints maxHeight="118.0" minHeight="10.0" prefHeight="98.0" vgrow="SOMETIMES" />
-      <RowConstraints maxHeight="52.0" minHeight="2.0" prefHeight="22.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="431.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="417.0" minHeight="10.0" prefHeight="142.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="455.0" minHeight="0.0" prefHeight="261.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="219.0" minHeight="2.0" prefHeight="219.0" vgrow="SOMETIMES" />
    </rowConstraints>
    <children>
       <Button mnemonicParsing="false" text="Új étel felvétele" />
       <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="Törlés" GridPane.columnIndex="1" />
-      <TitledPane animated="false" prefHeight="123.0" prefWidth="246.0" text="Áremelés" GridPane.rowIndex="1">
+      <TitledPane animated="false" prefHeight="106.0" prefWidth="738.0" text="Áremelés" GridPane.rowIndex="1">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="97.0" prefWidth="346.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="80.0" prefWidth="373.0">
                <children>
                   <Spinner layoutY="2.0" />
                   <Spinner layoutY="36.0" />
@@ -32,13 +32,13 @@
             </AnchorPane>
         </content>
       </TitledPane>
-      <TableView prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+      <TableView prefHeight="262.0" prefWidth="684.0" GridPane.rowIndex="2">
         <columns>
-          <TableColumn prefWidth="75.0" text="Név" />
-          <TableColumn prefWidth="75.0" text="Kategória" />
-            <TableColumn prefWidth="75.0" text="Ár" />
+          <TableColumn prefWidth="240.0" text="Név" />
+          <TableColumn minWidth="0.0" prefWidth="147.0" text="Kategória" />
+            <TableColumn prefWidth="94.0" text="Ár (Ft)" />
         </columns>
       </TableView>
-      <TextArea prefHeight="116.0" prefWidth="392.0" GridPane.rowIndex="3" />
+      <TextArea prefHeight="103.0" prefWidth="738.0" GridPane.rowIndex="3" />
    </children>
 </GridPane>
