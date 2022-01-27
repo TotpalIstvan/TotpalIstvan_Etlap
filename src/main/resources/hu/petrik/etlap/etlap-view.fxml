@@ -33,8 +33,8 @@
       </TitledPane>
       <TableView prefHeight="254.0" prefWidth="442.0" GridPane.rowIndex="2">
         <columns>
-          <TableColumn prefWidth="240.0" text="Név" />
-          <TableColumn minWidth="0.0" prefWidth="147.0" text="Kategória" />
+            <TableColumn prefWidth="240.0" text="Név" />
+            <TableColumn minWidth="0.0" prefWidth="147.0" text="Kategória" />
             <TableColumn prefWidth="94.0" text="Ár (Ft)" />
         </columns>
       </TableView>
