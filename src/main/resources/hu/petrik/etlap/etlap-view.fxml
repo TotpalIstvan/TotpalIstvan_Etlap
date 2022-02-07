@@ -92,6 +92,6 @@
             <TableColumn fx:id="arOszlop" minWidth="45" prefWidth="110" text="Ár (Ft)" />
          </columns>
       </TableView>
-      <TextArea fx:id="elemLeirasArea" prefHeight="242.0" prefWidth="592.0" />
+      <TextArea fx:id="leiras" prefHeight="242.0" prefWidth="592.0" />
    </children>
 </VBox>
