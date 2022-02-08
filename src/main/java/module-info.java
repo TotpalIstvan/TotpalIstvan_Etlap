@@ -2,6 +2,7 @@ module com.example.etlap {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
+    requires java.desktop;
 
 
     opens hu.petrik.etlap to javafx.fxml;

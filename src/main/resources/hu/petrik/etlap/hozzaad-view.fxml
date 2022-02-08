@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane prefHeight="367.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.petrik.etlap.controllers.HozzaadController">
+    <columnConstraints>
+        <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="377.0" minWidth="10.0" percentWidth="50.0" prefWidth="300.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="492.0" minWidth="10.0" percentWidth="50.0" prefWidth="297.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="88.0" minHeight="10.0" percentHeight="25.0" prefHeight="36.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="109.0" minHeight="10.0" percentHeight="35.0" prefHeight="109.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="128.0" minHeight="10.0" percentHeight="25.0" prefHeight="38.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="185.0" minHeight="10.0" percentHeight="25.0" prefHeight="73.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="375.0" minHeight="10.0" percentHeight="25.0" prefHeight="214.0" valignment="CENTER" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button alignment="CENTER" mnemonicParsing="false" onAction="#hozzaadBtn" prefHeight="30.0" prefWidth="517.0" text="Hozzáad" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.rowIndex="4">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <TextField fx:id="nevTextField" promptText="Név" GridPane.columnIndex="1">
+            <font>
+                <Font size="14.0" />
+            </font></TextField>
+        <TextArea fx:id="leirasTextArea" prefHeight="107.0" prefWidth="201.0" promptText="Leírás" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+                <Font size="14.0" />
+            </font></TextArea>
+        <ChoiceBox fx:id="kategoriaChoiceBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Spinner fx:id="arSpinner" editable="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <valueFactory>
+                <SpinnerValueFactory.IntegerSpinnerValueFactory amountToStepBy="100" max="100000" min="0" />
+            </valueFactory>
+        </Spinner>
+        <Label text="Név">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets right="20.0" />
+            </GridPane.margin></Label>
+        <Label text="Leírás" GridPane.rowIndex="1">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets right="20.0" />
+            </GridPane.margin></Label>
+        <Label text="Kategória" GridPane.rowIndex="2">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets right="20.0" />
+            </GridPane.margin></Label>
+        <Label text="Ár (Ft)" GridPane.rowIndex="3">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <GridPane.margin>
+                <Insets right="20.0" />
+            </GridPane.margin></Label>
+    </children>
+</GridPane>
